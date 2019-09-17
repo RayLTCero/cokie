@@ -1,0 +1,228 @@
+html {
+    /*box-sizing: border-box;*/
+}
+
+body {
+    background: #42275a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #734b6d, #42275a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #734b6d, #42275a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*box-sizing: inherit;*/
+
+}
+
+
+
+.bg-transparent-white {
+
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.bg-yellow {
+    background-color: #B3BA32;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 25px 0;
+    font-size: 4vw;
+
+}
+
+.text-purple-3 {
+    color: #8800FF;
+}
+
+.logo {
+    font-size: 32px;
+
+    height: 32px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: #8800FF;
+}
+
+/*.logo:after{
+    content: url('../img/cookie-24.png');
+    margin-left: 5px;
+
+
+}*/
+.btn-yellow {
+    background-color: #B3BA32;
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    border-bottom: 3px solid #000;
+    transition: all .5s ease-in-out;
+
+}
+
+.btn-yellow-sm {
+    background-color: #B3BA32;
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+    border-bottom: 3px solid #000;
+    transition: all .5s ease-in-out;
+}
+
+.btn-yellow-sm:hover {
+    background-color: rgb(143, 148, 44);
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.gif {
+
+    width: 200px;
+    height: 125px;
+}
+
+.btn-yellow:hover {
+    background-color: rgb(143, 148, 44);
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.form-control:focus {
+    border-color: #8800FF;
+    box-shadow: inset 0 1px 1px rgba(179, 186, 50, 0.075), 0 0 18px rgba(179, 186, 50, 0.6);
+}
+
+.circle-top {
+    position: relative;
+    z-index: 1;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(143, 148, 44);
+    position: absolute;
+    z-index: 2;
+    left: 38%;
+    top: -50px;
+}
+
+.circle:before {
+    content: url('../img/icons8-male-user-96.png');
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: inherit;
+    left: 2.5px;
+    top: 2.5px;
+}
+
+.text-common {
+    font-family: 'Chilanka', cursive;
+}
+
+.sombra-verde {
+    background-color: rgba(20, 255, 94);
+    border-radius: 5px;
+    padding: 0.5px 5px;
+    margin-top: 10px;
+
+}
+
+.bg-rosa {
+    background-color: rgba(255, 89, 222);
+    color: #fff;
+}
+
+.sombra-rosa {
+    background-color: rgba(255, 89, 222);
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+
+}
+
+.mycard {
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.gruop-btn {
+    margin: 0 auto;
+
+
+}
+
+.btn-rosa {
+    background-color: rgba(255, 89, 222);
+    color: #fff;
+    border: none;
+    width: 80px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all .3s ease-in;
+}
+
+.btn-rosa:hover {
+
+    background-color: rgba(255, 89, 222, .2);
+    color: rgb(255, 89, 222);
+
+}
+
+.btn-rosa:focus {
+    background-color: rgba(255, 89, 222);
+    color: #fff;
+}
+
+.btn-verde {
+    background-color: rgba(20, 255, 94);
+    color: #fff;
+}
+
+.try {
+  /*  margin-top: -200px;*/
+}
+
+.btn-feedback {}
+
+.btn-feedback:hover {
+    background-color: #B3BA32;
+    transform: scale(1.1);
+}
+
+.liked {
+    color: rgba(20, 255, 94);
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.nah{
+    color: #da2929;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.meh{
+    color:#f0e032;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.blur {
+    -webkit-box-shadow: 0px 1px 4px 1px rgba(179, 186, 50, 1);
+    -moz-box-shadow: 0px 1px 4px 1px rgba(179, 186, 50, 1);
+    box-shadow: 0px 1px 4px 1px rgba(179, 186, 50, 1);
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
